@@ -21,7 +21,7 @@ Follow these steps to set up the project and start controlling your Nanoleaf lig
 ### Prerequisites
 
 - Python 3.7 or higher
-- Nanoleaf API access token (refer to Nanoleaf's API documentation to obtain this)
+- Nanoleaf API access token (use authhelper.py to obtain this)
 - OpenAI API key for ChatGPT access
 
 ### Steps
@@ -34,7 +34,7 @@ Follow these steps to set up the project and start controlling your Nanoleaf lig
     Open the terminal in the project directory, and run:
     ```plaintext
     export NANOLEAF_IP=<your light's IP>
-    export NANOLEAF_KEY=<your nanoleaf key>
+    export NANOLEAF_KEY=<your nanoleaf key obtained with authhelper.py>
     export API_KEY=<your openai key>
     ```
     **Windows**
@@ -42,7 +42,7 @@ Follow these steps to set up the project and start controlling your Nanoleaf lig
     Open Command Prompt in the project directory, and run:
     ```plaintext
     SET NANOLEAF_IP=<your light's IP>
-    SET NANOLEAF_KEY=<your nanoleaf key>
+    SET NANOLEAF_KEY=<your nanoleaf key obtained with authhelper.py>
     SET API_KEY=<your openai key>
     ```
 
