@@ -21,8 +21,10 @@ Follow these steps to set up the project and start controlling your Nanoleaf lig
 ### Prerequisites
 
 - Python 3.7 or higher
+- Requests library ```pip install requests```
 - Nanoleaf API access token (use authhelper.py to obtain this)
 - OpenAI API key for ChatGPT access
+
 
 ### Steps
     
